@@ -241,19 +241,26 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
  
-  .main-section {
-    width: 500px;
+ /*still need to put portfolio images into a single column*/
   
-  }
+  
   #masthead{
     margin: 0 auto;
+  }
+  p{ 
+    width: 100%;
+    clear:both;
+  }
+  .auth-image {
+    width: 60%;
+    text-align: center;
   }
 
 
 
 }
 @media screen and (max-width: 768px) {
- 
+ /*still need to float connect with me area*/
   #masthead{
     margin: 0 auto;
   }
@@ -281,6 +288,7 @@ input[type=submit] {
 
 
 @media screen and (max-width: 640px) {
+  /*still need to align portfolio photos in one column*/
   header {
     position: static;
     
